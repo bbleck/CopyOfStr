@@ -43,5 +43,8 @@ int main(void) {
   //print two strings
   printf("input: %s\noutput: %s\n", s, t);
   
+  //free mem
+  free(t);
+  
   return 0;
 }
